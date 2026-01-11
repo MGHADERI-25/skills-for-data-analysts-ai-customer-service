@@ -1,0 +1,10 @@
+# Data (survey exports kept private by default)
+data/raw/**
+
+# Analysis outputs
+outputs/**
+
+# Editor / system
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
