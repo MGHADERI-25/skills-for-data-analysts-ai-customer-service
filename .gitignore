@@ -1,8 +1,12 @@
 # Data (survey exports kept private by default)
 data/raw/**
+data/**/*.csv
 
 # Analysis outputs
 outputs/**
+
+# Jupyter
+.ipynb_checkpoints/
 
 # Editor / system
 .DS_Store
