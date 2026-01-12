@@ -2,8 +2,12 @@
 data/raw/**
 data/**/*.csv
 
-# Analysis outputs
+# Analysis outputs (ignore by default)
 outputs/**
+
+# Allow committed figures for the report
+!outputs/figures/
+!outputs/figures/**
 
 # Jupyter
 .ipynb_checkpoints/
@@ -11,4 +15,3 @@ outputs/**
 # Editor / system
 .DS_Store
 .vscode/
-.ipynb_checkpoints/
